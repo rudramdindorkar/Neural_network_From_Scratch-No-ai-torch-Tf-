@@ -23,3 +23,6 @@ for i in range (len(weights)):
     sum=sum+bais[i]
     outputs.append(sum)
 print(outputs)
+
+
+
