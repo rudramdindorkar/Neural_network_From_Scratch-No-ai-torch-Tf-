@@ -11,7 +11,7 @@ weights=[
 
 bais=[4,5,6]
 
-outputs=np.dot(inputs,weights)+bais
+outputs=np.dot(weights,inputs)+bais
 print(outputs)
 
 # outputs = [#this method is tds to write replacing with loops
